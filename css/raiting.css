@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.rating {
+    overflow: hidden;
+    display: inline-block;
+    font-size: 0;
+	padding: 15px 12px;
+}
+.rating-input {
+    float: right;
+    width: 0;
+    opacity: 0;
+}
+.rating:hover .rating-star:hover,
+.rating:hover .rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+    background-position: 0 0;
+}
+.rating-star,
+.rating:hover .rating-star {
+    float: right;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(star.png)  0 -16px;
+	margin: 0 2px;
+
+}
+
+/* Just for the demo */
+body {
+    margin: 20px;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+#vertmenu li {
+  list-style: none;
+  display: inline;
+  margin: 0 10px 0 0;
+  padding: 12px;
+  background: none no-repeat left 50%;/* left and centered */
+}
+  
+
+#vertmenu .facebook {
+  background-image: url(facebook.png);/*specify image here*/
+}
+
+
+
+/* ... etc. ... */
+#vertmenu a {
+  font-size: .8em;
+  display: none;
+  padding: 5px 0px 2px 20px;/* change 20px to width of icon+some padding*/
+  text-decoration: none;
+  color: #fff;
+  /*width:160px; not needed. also should have be 156px because of the 4px left padding */
+}
