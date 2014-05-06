@@ -32,19 +32,19 @@
 					<!-- Raiting -->
         			<li>
 						<span class="rating">
-        					<input type="radio" class="rating-input"
+        					<input  onclick="myStar5()" type="radio" class="rating-input"
            			 				id="rating-input-1-5" name="rating-input-1">
         					<label for="rating-input-1-5" class="rating-star"></label>
-        					<input type="radio" class="rating-input"
+        					<input  onclick="myStar4()" type="radio" class="rating-input"
           		  					id="rating-input-1-4" name="rating-input-1">
         					<label for="rating-input-1-4" class="rating-star"></label>
-        					<input type="radio" class="rating-input"
+        					<input  onclick="myStar3()" type="radio" class="rating-input"
            				 			id="rating-input-1-3" name="rating-input-1">
        						<label for="rating-input-1-3" class="rating-star"></label>
-        					<input type="radio" class="rating-input"
+        					<input  onclick="myStar2()" type="radio" class="rating-input"
             						id="rating-input-1-2" name="rating-input-1">
        						<label for="rating-input-1-2" class="rating-star"></label>
-        					<input type="radio" class="rating-input"
+        					<input  onclick="myStar1()" type="radio" class="rating-input"
             						id="rating-input-1-1" name="rating-input-1">
         					<label for="rating-input-1-1" class="rating-star"></label>
     					</span>
@@ -113,8 +113,37 @@
 		document.addEventListener("msvisibilitychange", onVisibilityChanged, false);	
     </script>
     
-	<!-- SCRIPTS -->
+	<!-- MENU -->
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/bootstrap.js"></script>
+	<!-- ALERT -->
+    <script>
+		function myStar5()
+		{alert("You have rated the game with 5 stars!");
+		}
+	</script>
+  	<script>
+		function myStar4()
+		{alert("You have rated the game with 4 stars!");
+		}
+	</script>
+    <script>
+		function myStar3()
+		{alert("You have rated the game with 3 stars!");
+		}
+	</script>
+  	<script>
+		function myStar2()
+		{alert("You have rated the game with 2 stars!");
+		}
+	</script>
+	<script>
+		function myStar1()
+		{alert("You have rated the game with 1 star!");
+		}
+	</script>
+    
+
+    
 </body>
 </html>
