@@ -5792,7 +5792,7 @@ button.close {
 
 .navbar-inner
 	{
-		background-color: rgba(40,40,25,0.75);
+		background-color: rgba(2,2,0,0.85);
 		/* remove the gradient */
 		background-image: none;
 		/* set font color to white */
